@@ -47,4 +47,4 @@ cd atlasdev
 yarn install
 
 # 4. Rode o ambiente de desenvolvimento
-yarn dev
+yarn start
