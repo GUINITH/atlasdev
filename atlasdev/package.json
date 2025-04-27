@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "backstage-cli repo start",
-    "build": "backstage-cli repo build --all", 
+    "build": "backstage-cli app:build && mkdir -p build && cp -r dist/* build/", 
     "build:backend": "yarn workspace backend build",
     "build:all": "backstage-cli repo build --all",
     "build-image": "yarn workspace backend build-image",
